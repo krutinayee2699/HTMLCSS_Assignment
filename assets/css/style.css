@@ -1,0 +1,199 @@
+*{
+    font-family: cursive;
+}
+
+.navbar{
+    background-color: #1b8989;
+    padding: 15px;
+    top: 0;
+    font-size: 17px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a{
+    margin-left: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+.float-right{
+    float: right;
+}
+
+.btn{
+    padding: 3px 10px 5px 10px;
+    border-radius: 5%;
+}
+
+.btn-primary{
+    background-color: rgb(45, 97, 218);
+    margin-left: 15px;
+    font-size: large;
+}
+
+.btn-warning{
+    background-color: rgb(246, 246, 16);
+    color: black;
+}
+
+.mt-1px{
+    margin-top: 1px;
+}
+
+.row{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-3{
+    width: 33.33%;
+}
+
+/* .col-4{
+    width: 25%;
+} */
+
+.mt-10px{
+    margin-top: 10px;
+}
+
+.card{
+    border: 1px solid rgb(202, 198, 198);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.card a{
+    color: cadetblue;
+}
+
+.card p{
+    color: rgb(107, 106, 106);
+    text-align: justify;
+}
+
+.text-primary{
+    color: rgb(46, 46, 190);
+}
+
+.text-white{
+    color: white;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.footer{
+    background-color: rgb(1, 2, 2);
+    padding: 5px;
+}
+
+.p-5{
+    padding: 30px;
+    color: white;
+    background-color: rgba(28, 65, 60,0.472);
+}
+
+.p-1{
+    margin-left: 15px;
+    
+}
+.p-4{
+    padding: 25px;
+    font-size: large;
+}
+
+.border{
+    border: 2px solid gray;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+input , select{
+    width: 250px;
+    height: 25;
+}
+
+.m-3{
+    margin: 20px;
+    font-size: large;
+}
+
+
+.login {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+
+.register {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.register input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
